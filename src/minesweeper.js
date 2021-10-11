@@ -39,7 +39,7 @@ const board = [
  * If you want to start in the bottom left corner change origin to be const origin = new Node(9,0)
  * here I expect there to be only one valid move because that block is surrounded by mines
  *
- * If you start the origin on a mine for example (const origin = new Node(9,0)), there will be no traversals.
+ * If you start the origin on a mine for example (const origin = new Node(0,1)), there will be no traversals.
  */
 const origin = new Node(5,5);
 
